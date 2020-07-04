@@ -1,4 +1,78 @@
 .App {
   font-family: sans-serif;
+  background-color: whitesmoke;
+  width: 1130px;
+  height: 500px;
+  margin: 40px auto;
+}
+#to-do input {
+  background-color: rgb(101, 199, 101);
+  height: 50px;
+  margin: 20px;
+  width: 200px;
+  padding: 0 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+}
+#to-do button {
+  background-color: orange;
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#to-do :focus {
+  outline: none;
+}
+.List {
+  background-color: palevioletred;
+  color: white;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 55px;
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+#Items button {
+  margin-left: 25px;
+}
+.product button {
+  height: 100px;
+  width: 150px;
+}
+.Listpanel {
+  background-color: gray;
+  height: 500px;
+  width: 320px;
+  align-items: center;
+  overflow-y: auto;
+  position: relative;
+}
+.Itempanel {
+  background-color: whitesmoke;
+  width: 800px;
+  height: 500px;
+  position: relative;
+  text-align: center;
+  overflow-y: auto;
+}
+.product img {
+  height: 200px;
+  width: 300px;
+  margin: 15px 15px 15px 15px;
+}
+h3 {
+  text-align: center;
+  background-color: rgb(224, 203, 162);
+  width: 300px;
+  margin-left: 10px;
+}
+h2 {
+  background-color: rgb(88, 172, 88);
   text-align: center;
 }
